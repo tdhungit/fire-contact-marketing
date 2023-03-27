@@ -1,0 +1,107 @@
+@host = http://localhost:5055
+@contentType = application/json
+@authToken = Bearer YOUADDON
+
+### init user for install (env=dev)
+POST {{host}}/users/init HTTP/1.1
+Authorization: {{authToken}}
+
+### get current user
+GET {{host}}/current-user HTTP/1.1
+Authorization: {{authToken}}
+
+### get users
+GET {{host}}/users HTTP/1.1
+Authorization: {{authToken}}
+
+### get detail user
+GET {{host}}/users/tgHX8IQlRl3p9C6ZAqNF HTTP/1.1
+Authorization: {{authToken}}
+
+### create new user
+POST {{host}}/users HTTP/1.1
+Authorization: {{authToken}}
+Content-Type: {{contentType}}
+
+{
+  "email": "admin2@abc.com",
+  "password": "21232f297a57a5a743894a0e4a801fc3",
+  "firstName": "Admin",
+  "lastName": "FireContactMarketing",
+  "phone": "0909090909",
+  "roles": [
+    "ADMIN"
+  ]
+}
+
+### get contacs
+GET {{host}}/contacts HTTP/1.1
+Authorization: {{authToken}}
+
+### detail contact
+GET {{host}}/contacts/XPg9vp
+Authorization: {{authToken}}Bl50CaHpeoKRuS HTTP/1.1
+Authorization: {{authToken}}
+
+### create contact
+POST {{host}}/contacts HTTP/
+Authorization: {{authToken}}1.1
+Content-Type: {{contentType}}
+Authorization: {{authToken}}
+
+{
+  "firstName": "Jacky",
+  Authorization: {{authToken}}
+  "lastName": "Tran",
+  "email": "jacky@youaddon.com",
+  "phone": "0909090909",
+  "type": "Customer",
+  "billingEmail": "jacky.tran@youaddon.com",
+  "billingPhone": "0909090909",
+  "billingStreet1": "112 Dinh Tien Hoang",
+  "billingStreet2": "Phuong 13, Quan 1",
+  "billingCity": "Ho Chi Minh",
+  "billingState": "SaiGon",
+  "billingCountry": "VietName",
+  "shippingEmail": "jacky.tran@youaddon.com",
+  "shippingPhone": "0909090909",
+  "shippingStreet1": "112 Dinh Tien Hoang",
+  "shippingStreet2": "Phuong 13, Quan 1",
+  "shippingCity": "Ho Chi Minh",
+  "shippingState": "SaiGon",
+  "shippingCountry": "VietNam"
+}
+
+### update contact
+PUT {{host}}/contacts/A3bpW4sDOv8XSbwChZ0A HTTP/1.1
+Content-Type: {{contentType}}
+Authorization: {{authToken}}
+
+{
+  "phone": "9999999999"
+  Authorization: {{authToken}}
+}
+
+### create rhythm
+POST {{host}}/rhythms HTTP/1.1
+Content-Type: {{contentType}}
+Authorization: {{authToken}}
+
+{
+  "name": "Rhythm 1",
+  "description": "Test",
+  "emailTemplateId": "1"
+}
+
+### get rhythms
+GET {{host}}/rhythms HTTP/1.1
+Authorization: {{authToken}}
+
+### upload
+POST {{host}}/upload HTTP/1.1
+Authorization: {{authToken}}
+Content-Type: multipart/form-data
+
+### get download url
+GET {{host}}/download-url?uri=job_data.json HTTP/1.1
+Authorization: {{authToken}}

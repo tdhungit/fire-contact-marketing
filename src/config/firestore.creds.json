@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "firecontactmarketing",
+  "private_key_id": "323d711cb7a6a6566648ce2d6c35f43bd48139e8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4QCrknAtWXH8J\n65afFUSih4yzVJG0jumYKFhcQ/5MXhgtzkWuMGwAmWegQvKu/0V4EdaCoOEXQDo5\n1xY/sN+j3bK7NhvDWje7Q1KTsAC/Mb/BK9tAqkldiNVs5zqfqPov5g9lWeZS62HV\niziRuTheZ8KUTwtm6zUzKLbM6x+NvaAQoiwIe04n1W0un/PEsdM/aXgJ7UubkeHF\nEl867XvOjNHfJJDyKSzMc2jwvKiZPR4IUxJ7bDY1FCxvAwJ2k0Dd2J37LCBHZ4Bd\nMmJSQNNk+1S2URdy28dg0SmN2YSDbVn1Cln9o7kcivqGAdw92sqzzWGVbG8UNGup\nur407lzZAgMBAAECggEAB4m+h4BX2WZq3yPHk4YZ+wFLMRoMZQP0zCAYb1vrx0GR\nQSx/fs8l2AdurSiYB69TbwRhz5HX66zZxPyHAT+SAsEC+zRNQfqKratlMTwh57CY\nHQXXkEd3PW+n9a7nH9mYtMV3i0i4itts8wDhZVrb0sbxd8JdH86PLGLlya/z6EdQ\nMYiKLz/dC1rOgOV1N1WoaGCA0xRmCLHC1lVgbAj0XhME7md5/JGh3aCe2+l8zJva\nS5qzZvxduytzkyJ1mK5vFMN3PKHsZ0vz+Yoslo39cC5PtC0dtDqjCvhGwYw+7E+M\nBifzAdvZwACTXubem2Na2FjMezgkRu/JmzRYOwlZVQKBgQDtqk0NJiOUYSVSB6Ql\nqX6adAWsUcw/YLnM0mvRWipbjjEZ1QzwteSrMx6ZOtdP+Z8PIBF5JpkeQi0BfPKt\nVHfQ1SgYvRTkIRhZ8tty4m3ujfFBfDHpH0MREucmDr8twK1R7D3YFtbz0QIyzShW\nIXwTVxyU5DEN6HPiYS10Gar9JQKBgQDGdvibDKKBKSnmz6AEKqG8+vJA3NfIEtvB\nNGoXoxhlox3303ClRH3AX+0yAHqO0mWp8Yq14qGdhNjrEApkD+RSZKFW5wwh2S1A\n3QrBcT+euBSpCHFZ4RYGVBb2UD84UmAjwFVuUrQUSwy4BKLcqSfdpz6+aql9YIuQ\n2c1im6AkpQKBgQDlzZqtUShsC7bzZ1IP3KD/JZpqsbkluxhM9VWtW1rDpmzRxpC5\nm5dc9pPqo9uXiA2FqYNburepa2FrI+7fLGKiOcmIiiPOJjYOm2YX4ttbJEKYCEeW\nW1UVCEsbIH049ypfoWd3LzZvELTofDk5dy0q4jtPuIm6If8TcNVrgno0RQKBgDs1\ngzW+rzyZa0bQ6oxTq60VsPBo8ndeKPGbEYu7vKuV3nrxOcoUhO+/rqQcQHQbkPkC\ndr+MvWqhF5YJUxBHLXbnTrr+c0Al6rpPN8Y+YxyXDpLfUfHelROOQst5ZWMIMGZ6\nGwKu6cqkGUdNGsl6LcqS+sUUTTx6cSjl0cB5bW2BAoGBAOY0r5Zzax+NM6vj1rSe\n+S73rmbTml+y5m8JazHECKtYJPmmH9Ug1C7vZQfujcnqYvNY55nAigwL9ge0oJQ/\npUA064C8rMsDg03EY/8z6VBG4QFlaTVTcv3uSJnKQt4PQRqnquxr6VOGKPInOlRa\nT+ixS11zs5brVLs5ZOK0VG4l\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-6nhjq@firecontactmarketing.iam.gserviceaccount.com",
+  "client_id": "118142804932315119336",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-6nhjq%40firecontactmarketing.iam.gserviceaccount.com"
+}
